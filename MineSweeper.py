@@ -44,8 +44,30 @@ class MineSweeper:
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
         pygame.display.set_caption("扫雷游戏")
         self.clock = pygame.time.Clock()
-        self.font = pygame.font.SysFont(None, 24)
-        self.large_font = pygame.font.SysFont(None, 48)
+        # 使用支持中文的字体
+        # 尝试多个可能的字体路径
+        font_paths = [
+            "C:/Windows/Fonts/simhei.ttf",  # 黑体
+            "C:/Windows/Fonts/simsun.ttc",  # 宋体
+            "C:/Windows/Fonts/msyh.ttc",    # 微软雅黑
+            "C:/Windows/Fonts/msyhbd.ttc",  # 微软雅黑粗体
+        ]
+        
+        font_loaded = False
+        for path in font_paths:
+            try:
+                self.font = pygame.font.Font(path, 24)
+                self.large_font = pygame.font.Font(path, 48)
+                print(f"成功加载字体: {path}")
+                font_loaded = True
+                break
+            except Exception as e:
+                print(f"尝试加载字体 {path} 失败: {e}")
+        
+        if not font_loaded:
+            print("所有中文字体加载失败，使用系统默认字体")
+            self.font = pygame.font.SysFont(None, 24)
+            self.large_font = pygame.font.SysFont(None, 48)
         self.reset_game()
 
     def reset_game(self):

@@ -85,9 +85,31 @@ class HearthstoneGame:
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
         pygame.display.set_caption("炉石传说 - 简化版")
         self.clock = pygame.time.Clock()
-        self.font = pygame.font.SysFont(None, 24)
-        self.large_font = pygame.font.SysFont(None, 36)
-        self.small_font = pygame.font.SysFont(None, 20)
+        # 使用支持中文的字体
+        font_paths = [
+            "C:/Windows/Fonts/simhei.ttf",  # 黑体
+            "C:/Windows/Fonts/simsun.ttc",  # 宋体
+            "C:/Windows/Fonts/msyh.ttc",    # 微软雅黑
+            "C:/Windows/Fonts/simkai.ttf",  # 楷体
+        ]
+        
+        font_loaded = False
+        for font_path in font_paths:
+            try:
+                self.font = pygame.font.Font(font_path, 24)
+                self.large_font = pygame.font.Font(font_path, 36)
+                self.small_font = pygame.font.Font(font_path, 20)
+                print(f"成功加载字体: {font_path}")
+                font_loaded = True
+                break
+            except:
+                continue
+        
+        if not font_loaded:
+            print("无法加载中文字体，使用默认字体")
+            self.font = pygame.font.SysFont(None, 24)
+            self.large_font = pygame.font.SysFont(None, 36)
+            self.small_font = pygame.font.SysFont(None, 20)
 
         # 游戏状态
         self.player_mana = 1
