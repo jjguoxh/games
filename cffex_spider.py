@@ -77,8 +77,8 @@ class CFFEXSpider:
         获取指定产品的持仓数据
         Args:
             product_id: 产品ID (IM=中证1000股指期货)
-            date: 查询日期，格式YYYY-MM-DD，默认为最新交易日
-            contract_month: 合约月份，如"2024-12"，默认为主力合约
+            date: 查询日期, 格式YYYY-MM-DD, 默认为最新交易日
+            contract_month: 合约月份, 如"2024-12", 默认为主力合约
         Returns:
             dict: 包含持仓数据的字典
         """
@@ -316,11 +316,158 @@ class CFFEXSpider:
         except Exception as e:
             logging.error(f"解析页面数据时发生错误: {e}")
             return None
+    
+    def get_date_range_data(self, product_id, start_date, end_date):
         """
-        自动点击选择日期和合约
+        获取指定日期范围内的成交持仓排名数据
         Args:
-            target_date: 目标日期，格式YYYY-MM-DD
-            contract_month: 合约月份，如"2024-12"
+            product_id: 产品代码 (如 'IF', 'IC', 'IM' 等)
+            start_date: 开始日期字符串 (格式: YYYY-MM-DD)
+            end_date: 结束日期字符串 (格式: YYYY-MM-DD)
+        Returns:
+            list: 包含所有日期数据的列表
+        """
+        from datetime import datetime, timedelta
+        
+        try:
+            # 解析日期
+            start_dt = datetime.strptime(start_date, '%Y-%m-%d')
+            end_dt = datetime.strptime(end_date, '%Y-%m-%d')
+            
+            all_data = []
+            current_date = start_dt
+            
+            logging.info(f"开始批量爬取数据: {product_id}, 日期范围: {start_date} 到 {end_date}")
+            
+            while current_date <= end_dt:
+                date_str = current_date.strftime('%Y-%m-%d')
+                logging.info(f"正在爬取日期: {date_str}")
+                
+                # 获取单日数据
+                result = self.get_product_data(product_id, date_str)
+                
+                if result.get('success'):
+                    # 为每条记录添加日期信息
+                    data = result.get('data', {})
+                    for ranking_type in ['volume_ranking', 'buy_position_ranking', 'sell_position_ranking']:
+                        for record in data.get(ranking_type, []):
+                            record['date'] = date_str
+                            record['product_id'] = product_id
+                            record['ranking_type'] = ranking_type
+                    
+                    all_data.append(result)
+                    logging.info(f"成功获取 {date_str} 的数据")
+                else:
+                    logging.warning(f"获取 {date_str} 的数据失败: {result.get('error', '未知错误')}")
+                
+                # 移动到下一个日期
+                current_date += timedelta(days=1)
+                
+                # 添加延迟避免请求过快
+                time.sleep(2)
+            
+            logging.info(f"批量爬取完成，共获取 {len(all_data)} 个交易日的数据")
+            return all_data
+            
+        except Exception as e:
+            logging.error(f"批量获取数据时发生错误: {e}")
+            return []
+
+    def save_range_data_to_csv(self, all_data, filename=None):
+        """
+        将多日数据保存到CSV文件
+        Args:
+            all_data: 多日数据列表
+            filename: 输出文件名, 默认自动生成
+        Returns:
+            str: 保存的文件路径
+        """
+        try:
+            if not all_data:
+                logging.warning("没有数据需要保存")
+                return None
+            
+            # 生成文件名
+            if not filename:
+                timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+                filename = f"cffex_range_data_{timestamp}.csv"
+            
+            # 收集所有记录
+            all_records = []
+            
+            for daily_data in all_data:
+                if not daily_data.get('success'):
+                    continue
+                    
+                data = daily_data.get('data', {})
+                date_str = daily_data.get('date', '')
+                product_id = daily_data.get('product_id', '')
+                
+                # 处理成交量排名
+                for record in data.get('volume_ranking', []):
+                    all_records.append({
+                        'date': date_str,
+                        'product_id': product_id,
+                        'ranking_type': '成交量排名',
+                        'rank': record.get('rank', ''),
+                        'member_name': record.get('member_name', ''),
+                        'volume': record.get('volume', ''),
+                        'change': record.get('change', '')
+                    })
+                
+                # 处理持买单量排名
+                for record in data.get('buy_position_ranking', []):
+                    all_records.append({
+                        'date': date_str,
+                        'product_id': product_id,
+                        'ranking_type': '持买单量排名',
+                        'rank': record.get('rank', ''),
+                        'member_name': record.get('member_name', ''),
+                        'volume': record.get('volume', ''),
+                        'change': record.get('change', '')
+                    })
+                
+                # 处理持卖单量排名
+                for record in data.get('sell_position_ranking', []):
+                    all_records.append({
+                        'date': date_str,
+                        'product_id': product_id,
+                        'ranking_type': '持卖单量排名',
+                        'rank': record.get('rank', ''),
+                        'member_name': record.get('member_name', ''),
+                        'volume': record.get('volume', ''),
+                        'change': record.get('change', '')
+                    })
+            
+            if not all_records:
+                logging.warning("没有有效的记录需要保存")
+                return None
+            
+            # 保存到CSV
+            import pandas as pd
+            df = pd.DataFrame(all_records)
+            
+            # 按日期和排名类型排序
+            df = df.sort_values(['date', 'ranking_type', 'rank'])
+            
+            df.to_csv(filename, index=False, encoding='utf-8-sig')
+            
+            logging.info(f"数据已保存到CSV文件: {filename}")
+            logging.info(f"总共保存了 {len(all_records)} 条记录")
+            
+            return filename
+            
+        except Exception as e:
+            logging.error(f"保存CSV文件时发生错误: {e}")
+            return None
+
+    def click_date_and_contract_selector(self, target_date=None, contract_month=None):
+        """
+        点击日期和合约选择器
+        
+        Args:
+            target_date: 目标日期, 格式YYYY-MM-DD
+            contract_month: 合约月份, 如"2024-12"
         Returns:
             bool: 操作是否成功
         """
@@ -709,7 +856,7 @@ class CFFEXSpider:
         将数据保存为CSV格式
         Args:
             data: 要保存的数据
-            filename: 文件名，如果为None则自动生成
+            filename: 文件名, 如果为None则自动生成
         Returns:
             str: 保存的文件路径
         """
@@ -822,57 +969,51 @@ class CFFEXSpider:
 
 def main():
     """主函数"""
-    print("中金所持仓数据爬虫程序")
-    print("=" * 50)
-    
-    # 创建爬虫实例
-    spider = CFFEXSpider(headless=False)  # 设置为False以便调试
-    
+    spider = None
     try:
-        # 显示可用产品
-        products = spider.get_available_products()
-        print("可用产品:")
-        for code, name in products.items():
-            print(f"  {code}: {name}")
-        print()
+        # 创建爬虫实例
+        spider = CFFEXSpider()
         
-        # 获取用户输入
-        product_id = input("请输入产品代码 (默认IM): ").strip().upper()
-        if not product_id:
-            product_id = "IM"
+        # 批量爬取2025-09-08到2025-09-12的IF数据
+        print("🚀 开始批量爬取中金所IF品种数据...")
+        print("📅 日期范围: 2025-09-08 到 2025-09-12")
         
-        # 固定使用2025-09-13日期进行测试（因为当天数据还未生成）
-        date = "2025-09-12"
-        print(f"使用固定测试日期: {date}")
+        all_data = spider.get_date_range_data('IF', '2025-09-08', '2025-09-12')
         
-        print(f"\n开始爬取产品 {product_id} 的数据...")
-        
-        # 执行爬取
-        result = spider.get_product_data(product_id, date)
-        
-        if result:
-            print("\n爬取结果:")
-            print(json.dumps(result, ensure_ascii=False, indent=2))
+        if all_data:
+            print(f"✅ 成功获取 {len(all_data)} 个交易日的数据")
             
-            # 保存为CSV格式
-            if result.get('success'):
-                csv_filename = spider.save_to_csv(result)
-                if csv_filename:
-                    print(f"\n✅ CSV数据已保存到: {csv_filename}")
-                    print(f"\n🎉 数据保存成功")
-                else:
-                    print("\n❌ 文件保存失败")
+            # 保存到CSV文件
+            filename = spider.save_range_data_to_csv(all_data, 'IF_range_2025-09-08_to_2025-09-12.csv')
+            
+            if filename:
+                print(f"💾 数据已保存到: {filename}")
+                
+                # 统计信息
+                total_records = 0
+                for daily_data in all_data:
+                    if daily_data.get('success'):
+                        data = daily_data.get('data', {})
+                        total_records += len(data.get('volume_ranking', []))
+                        total_records += len(data.get('buy_position_ranking', []))
+                        total_records += len(data.get('sell_position_ranking', []))
+                
+                print(f"📊 总共保存了 {total_records} 条记录")
+                print("🎉 批量爬取完成！")
             else:
-                print(f"\n爬取失败: {result.get('error', '未知错误')}")
+                print("❌ 保存CSV文件失败")
         else:
-            print("未获取到任何数据")
-    
+            print("❌ 未能获取到任何数据")
+            
     except KeyboardInterrupt:
-        print("\n用户中断程序")
+        print("\n⚠️ 用户中断程序")
     except Exception as e:
-        print(f"程序执行出错: {e}")
+        print(f"❌ 程序运行出错: {e}")
+        logging.error(f"主程序运行出错: {e}")
     finally:
-        spider.close()
+        if spider:
+            spider.close()
+            print("🔒 爬虫已关闭")
 
 if __name__ == "__main__":
     main()
