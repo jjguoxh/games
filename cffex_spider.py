@@ -96,13 +96,59 @@ class CFFEXSpider:
             # 设置日期
             if date:
                 try:
-                    date_input = WebDriverWait(self.driver, 10).until(
-                        EC.presence_of_element_located((By.ID, "inputdate"))
-                    )
-                    # 清空并输入日期
-                    date_input.clear()
-                    date_input.send_keys(date)
-                    logging.info(f"已设置日期: {date}")
+                    # 优先使用完整的日期和合约选择器方法
+                    date_success = self.click_date_and_contract_selector(date)
+                    if not date_success:
+                        logging.warning(f"使用click_date_and_contract_selector失败，尝试直接使用click_date_selector方法")
+                        # 备用方案1: 直接使用click_date_selector
+                        date_success = self.click_date_selector(date)
+                        if not date_success:
+                            logging.warning(f"使用click_date_selector失败，尝试直接使用send_keys方法")
+                            # 备用方案2: 尝试多种可能的日期输入框ID
+                            date_input_ids = ["actualDate", "inputdate", "dateInput", "queryDate"]
+                            date_input_found = False
+                            
+                            for input_id in date_input_ids:
+                                try:
+                                    date_input = WebDriverWait(self.driver, 5).until(
+                                        EC.presence_of_element_located((By.ID, input_id))
+                                    )
+                                    # 清空并输入日期
+                                    date_input.clear()
+                                    time.sleep(0.5)
+                                    date_input.send_keys(date)
+                                    
+                                    # 触发事件
+                                    self.driver.execute_script("""
+                                        var element = arguments[0];
+                                        var date = arguments[1];
+                                        element.value = date;
+                                        element.dispatchEvent(new Event('input', {bubbles: true}));
+                                        element.dispatchEvent(new Event('change', {bubbles: true}));
+                                        element.dispatchEvent(new Event('blur', {bubbles: true}));
+                                    """, date_input, date)
+                                    
+                                    time.sleep(1)
+                                    logging.info(f"通过ID {input_id} 已设置日期: {date}")
+                                    date_input_found = True
+                                    break
+                                except:
+                                    continue
+                            
+                            if not date_input_found:
+                                # 备用方案3: 尝试使用XPath
+                                logging.warning(f"通过ID查找日期输入框失败，尝试使用XPath")
+                                try:
+                                    date_input = WebDriverWait(self.driver, 5).until(
+                                        EC.presence_of_element_located((By.XPATH, "//input[contains(@class, 'Wdate')]"))
+                                    )
+                                    date_input.clear()
+                                    time.sleep(0.5)
+                                    date_input.send_keys(date)
+                                    time.sleep(1)
+                                    logging.info(f"通过XPath已设置日期: {date}")
+                                except Exception as e:
+                                    logging.warning(f"所有日期设置方法都失败: {e}")
                 except Exception as e:
                     logging.warning(f"设置日期失败: {e}")
             

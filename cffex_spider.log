@@ -1,0 +1,868 @@
+2025-09-17 15:31:09,777 - INFO - WebDriver初始化成功
+2025-09-17 15:31:12,284 - INFO - 爬虫已关闭
+2025-09-17 15:31:21,809 - INFO - WebDriver初始化成功
+2025-09-17 15:31:21,812 - INFO - 正在访问: http://www.cffex.com.cn/ccpm/?productid=IM
+2025-09-17 15:31:28,349 - WARNING - 网站显示：没有您所查询的数据
+2025-09-17 15:31:28,349 - INFO - 正在访问: http://www.cffex.com.cn/ccpm/?productid=INVALID
+2025-09-17 15:31:31,761 - INFO - 成功获取数据，共1个表格
+2025-09-17 15:31:33,899 - INFO - 爬虫已关闭
+2025-09-17 15:36:16,822 - INFO - WebDriver初始化成功
+2025-09-17 15:36:16,823 - INFO - 正在访问: http://www.cffex.com.cn/ccpm/?productid=IM
+2025-09-17 15:36:34,794 - INFO - 成功选择日期: 2025-09-16
+2025-09-17 15:39:07,537 - INFO - WebDriver初始化成功
+2025-09-17 15:39:55,771 - INFO - 正在访问: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-17 15:40:13,646 - INFO - 成功选择日期: 2025-08-2025-09-12
+2025-09-17 15:40:15,711 - INFO - 成功点击查询按钮
+2025-09-17 15:40:18,383 - INFO - 成功获取数据，共4个表格
+2025-09-17 15:40:18,951 - INFO - 数据已保存到: cffex_data_20250917_154018.xlsx
+2025-09-17 15:40:21,498 - INFO - 爬虫已关闭
+2025-09-17 15:45:50,959 - INFO - WebDriver初始化成功
+2025-09-17 15:45:50,969 - INFO - 数据已保存到CSV文件: test_basic.csv
+2025-09-17 15:45:53,507 - INFO - 爬虫已关闭
+2025-09-17 15:45:54,725 - INFO - WebDriver初始化成功
+2025-09-17 15:45:54,741 - INFO - 数据已保存到CSV文件: test_multiple.csv
+2025-09-17 15:45:56,852 - INFO - 爬虫已关闭
+2025-09-17 15:45:58,036 - INFO - WebDriver初始化成功
+2025-09-17 15:45:58,037 - INFO - 数据已保存到CSV文件: test_comparison.csv
+2025-09-17 15:45:58,296 - INFO - 数据已保存到: test_comparison.xlsx
+2025-09-17 15:46:00,413 - INFO - 爬虫已关闭
+2025-09-17 15:46:01,592 - INFO - WebDriver初始化成功
+2025-09-17 15:46:01,593 - INFO - 数据已保存到CSV文件: test_encoding.csv
+2025-09-17 15:46:03,679 - INFO - 爬虫已关闭
+2025-09-17 15:46:39,589 - INFO - WebDriver初始化成功
+2025-09-17 15:46:39,592 - INFO - 数据已保存到CSV文件: test_basic.csv
+2025-09-17 15:46:42,121 - INFO - 爬虫已关闭
+2025-09-17 15:46:43,324 - INFO - WebDriver初始化成功
+2025-09-17 15:46:43,326 - INFO - 数据已保存到CSV文件: test_multiple.csv
+2025-09-17 15:46:45,411 - INFO - 爬虫已关闭
+2025-09-17 15:46:46,592 - INFO - WebDriver初始化成功
+2025-09-17 15:46:46,593 - INFO - 数据已保存到CSV文件: test_comparison.csv
+2025-09-17 15:46:46,839 - INFO - 数据已保存到: test_comparison.xlsx
+2025-09-17 15:46:48,921 - INFO - 爬虫已关闭
+2025-09-17 15:46:50,089 - INFO - WebDriver初始化成功
+2025-09-17 15:46:50,090 - INFO - 数据已保存到CSV文件: test_encoding.csv
+2025-09-17 15:46:53,167 - INFO - 爬虫已关闭
+2025-09-17 15:47:33,027 - INFO - WebDriver初始化成功
+2025-09-17 15:47:48,111 - INFO - 正在访问: http://www.cffex.com.cn/ccpm/?productid=IM
+2025-09-17 15:48:06,060 - INFO - 成功选择日期: 2025-09-12
+2025-09-17 15:48:08,146 - INFO - 成功点击查询按钮
+2025-09-17 15:48:11,110 - INFO - 成功获取数据，共5个表格
+2025-09-17 15:48:11,110 - INFO - 数据已保存到CSV文件: cffex_data_20250917_154811.csv
+2025-09-17 15:48:13,649 - INFO - 爬虫已关闭
+2025-09-17 15:51:46,747 - INFO - WebDriver初始化成功
+2025-09-17 15:51:58,157 - INFO - 爬虫已关闭
+2025-09-17 15:52:06,247 - INFO - WebDriver初始化成功
+2025-09-17 15:52:17,269 - INFO - 爬虫已关闭
+2025-09-17 15:52:24,237 - INFO - WebDriver初始化成功
+2025-09-17 15:52:24,238 - INFO - 正在访问: http://www.cffex.com.cn/ccpm/?productid=IM
+2025-09-17 15:52:32,844 - INFO - 成功点击查询按钮
+2025-09-17 15:52:34,859 - WARNING - 网站显示：没有您所查询的数据
+2025-09-17 15:52:36,862 - INFO - 正在访问: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-17 15:52:42,160 - INFO - 成功点击查询按钮
+2025-09-17 15:52:45,041 - INFO - 成功获取数据，共5个表格
+2025-09-17 15:52:47,043 - INFO - 正在访问: http://www.cffex.com.cn/ccpm/?productid=IC
+2025-09-17 15:52:52,275 - INFO - 成功点击查询按钮
+2025-09-17 15:52:55,166 - INFO - 成功获取数据，共5个表格
+2025-09-17 15:52:57,168 - INFO - 正在访问: http://www.cffex.com.cn/ccpm/?productid=IH
+2025-09-17 15:53:02,380 - INFO - 成功点击查询按钮
+2025-09-17 15:53:05,049 - INFO - 成功获取数据，共4个表格
+2025-09-17 15:53:07,050 - INFO - 正在访问: http://www.cffex.com.cn/ccpm/?productid=T
+2025-09-17 15:53:12,327 - INFO - 成功点击查询按钮
+2025-09-17 15:53:14,351 - WARNING - 网站显示：没有您所查询的数据
+2025-09-17 15:53:16,354 - INFO - 正在访问: http://www.cffex.com.cn/ccpm/?productid=TF
+2025-09-17 15:53:21,591 - INFO - 成功点击查询按钮
+2025-09-17 15:53:23,619 - WARNING - 网站显示：没有您所查询的数据
+2025-09-17 15:53:25,622 - INFO - 正在访问: http://www.cffex.com.cn/ccpm/?productid=TS
+2025-09-17 15:53:30,843 - INFO - 成功点击查询按钮
+2025-09-17 15:53:32,848 - ERROR - 获取数据时发生错误: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61c78fc95+79861]
+	GetHandleVerifier [0x0x7ff61c78fcf0+79952]
+	(No symbol) [0x0x7ff61c50cada]
+	(No symbol) [0x0x7ff61c4f8995]
+	(No symbol) [0x0x7ff61c51dbda]
+	(No symbol) [0x0x7ff61c594346]
+	(No symbol) [0x0x7ff61c5b48c2]
+	(No symbol) [0x0x7ff61c58c8b3]
+	(No symbol) [0x0x7ff61c555272]
+	(No symbol) [0x0x7ff61c556043]
+	GetHandleVerifier [0x0x7ff61ca4b9cd+2946349]
+	GetHandleVerifier [0x0x7ff61ca45c4a+2922410]
+	GetHandleVerifier [0x0x7ff61ca659d7+3052855]
+	GetHandleVerifier [0x0x7ff61c7aaa7e+189918]
+	GetHandleVerifier [0x0x7ff61c7b2a1f+222591]
+	GetHandleVerifier [0x0x7ff61c798ab4+116244]
+	GetHandleVerifier [0x0x7ff61c798c69+116681]
+	GetHandleVerifier [0x0x7ff61c77f048+11176]
+	BaseThreadInitThunk [0x0x7ffb0f0e7344+20]
+	RtlUserThreadStart [0x0x7ffb0f2226b1+33]
+
+2025-09-17 15:54:46,170 - INFO - WebDriver初始化成功
+2025-09-17 15:54:57,554 - INFO - 爬虫已关闭
+2025-09-17 15:56:29,447 - INFO - WebDriver初始化成功
+2025-09-17 15:56:38,004 - INFO - 正在访问: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-17 15:56:56,078 - INFO - 成功选择日期: 2025-09-12
+2025-09-17 15:56:58,148 - INFO - 成功点击查询按钮
+2025-09-17 15:57:01,079 - INFO - 成功获取数据，共5个表格
+2025-09-17 15:57:01,079 - INFO - 数据已保存到CSV文件: cffex_data_20250917_155701.csv
+2025-09-17 15:57:03,604 - INFO - 爬虫已关闭
+2025-09-17 15:59:08,710 - INFO - WebDriver初始化成功
+2025-09-17 15:59:16,887 - INFO - 正在访问: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-17 15:59:24,988 - INFO - 成功设置日期为: 2025-09-12
+2025-09-17 15:59:24,989 - INFO - 成功选择日期: 2025-09-12
+2025-09-17 15:59:28,072 - INFO - 成功点击查询按钮
+2025-09-17 15:59:28,072 - INFO - 成功点击查询按钮
+2025-09-17 15:59:30,979 - INFO - 成功获取数据，共5个表格
+2025-09-17 15:59:30,992 - INFO - 数据已保存到CSV文件: cffex_data_20250917_155930.csv
+2025-09-17 15:59:33,519 - INFO - 爬虫已关闭
+2025-09-17 16:00:30,190 - INFO - WebDriver初始化成功
+2025-09-17 16:00:39,126 - INFO - 正在访问: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-17 16:00:47,322 - INFO - 成功设置日期为: 2025-09-13
+2025-09-17 16:00:47,322 - INFO - 成功选择日期: 2025-09-13
+2025-09-17 16:00:50,407 - INFO - 成功点击查询按钮
+2025-09-17 16:00:50,407 - INFO - 成功点击查询按钮
+2025-09-17 16:00:52,426 - WARNING - 网站显示：没有您所查询的数据
+2025-09-17 16:00:54,998 - INFO - 爬虫已关闭
+2025-09-17 16:03:05,921 - INFO - WebDriver初始化成功
+2025-09-17 16:03:09,064 - INFO - 正在访问: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-17 16:03:17,306 - INFO - 成功设置日期为: 2025-09-12
+2025-09-17 16:03:17,306 - INFO - 成功选择日期: 2025-09-12
+2025-09-17 16:03:20,376 - INFO - 成功点击查询按钮
+2025-09-17 16:03:20,377 - INFO - 成功点击查询按钮
+2025-09-17 16:03:23,263 - INFO - 成功获取数据，共5个表格
+2025-09-17 16:03:23,264 - INFO - 数据已保存到CSV文件: cffex_data_20250917_160323.csv
+2025-09-17 16:03:25,816 - INFO - 爬虫已关闭
+2025-09-17 16:17:24,222 - INFO - WebDriver初始化成功
+2025-09-17 16:17:35,833 - INFO - 爬虫已关闭
+2025-09-17 16:17:42,137 - INFO - WebDriver初始化成功
+2025-09-17 16:17:53,316 - INFO - 爬虫已关闭
+2025-09-17 16:18:42,844 - INFO - WebDriver初始化成功
+2025-09-17 16:18:47,618 - INFO - 正在访问XML数据接口: http://www.cffex.com.cn/sj/ccpm/20250912/IF.xml
+2025-09-17 16:18:47,772 - ERROR - XML解析错误: not well-formed (invalid token): line 6, column 7
+2025-09-17 16:18:47,772 - INFO - 成功获取XML数据: IF, 日期: 2025-09-12
+2025-09-17 16:18:50,306 - INFO - 爬虫已关闭
+2025-09-17 16:38:15,358 - INFO - WebDriver初始化成功
+2025-09-17 16:38:37,449 - INFO - 正在访问XML数据接口: http://www.cffex.com.cn/sj/ccpm/20250912/IF.xml
+2025-09-17 16:38:37,619 - ERROR - 接口返回HTML错误页面，可能是数据不存在或接口地址错误
+2025-09-17 16:38:37,619 - ERROR - 获取数据时发生错误: name 'date_str' is not defined
+2025-09-17 16:38:40,135 - INFO - 爬虫已关闭
+2025-09-17 16:39:10,148 - INFO - WebDriver初始化成功
+2025-09-17 17:02:18,419 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)': /session/13a9c3e94315d4dee76a40bf70d1d2bd
+2025-09-17 17:02:22,486 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9F9F99430>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/13a9c3e94315d4dee76a40bf70d1d2bd
+2025-09-17 17:06:13,467 - INFO - WebDriver初始化成功
+2025-09-17 17:06:23,704 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-17 17:06:40,623 - WARNING - 设置日期失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61c78fc95+79861]
+	GetHandleVerifier [0x0x7ff61c78fcf0+79952]
+	(No symbol) [0x0x7ff61c50cada]
+	(No symbol) [0x0x7ff61c564457]
+	(No symbol) [0x0x7ff61c56471c]
+	(No symbol) [0x0x7ff61c5b8217]
+	(No symbol) [0x0x7ff61c58cb1f]
+	(No symbol) [0x0x7ff61c5b4f8b]
+	(No symbol) [0x0x7ff61c58c8b3]
+	(No symbol) [0x0x7ff61c555272]
+	(No symbol) [0x0x7ff61c556043]
+	GetHandleVerifier [0x0x7ff61ca4b9cd+2946349]
+	GetHandleVerifier [0x0x7ff61ca45c4a+2922410]
+	GetHandleVerifier [0x0x7ff61ca659d7+3052855]
+	GetHandleVerifier [0x0x7ff61c7aaa7e+189918]
+	GetHandleVerifier [0x0x7ff61c7b2a1f+222591]
+	GetHandleVerifier [0x0x7ff61c798ab4+116244]
+	GetHandleVerifier [0x0x7ff61c798c69+116681]
+	GetHandleVerifier [0x0x7ff61c77f048+11176]
+	BaseThreadInitThunk [0x0x7ffb0f0e7344+20]
+	RtlUserThreadStart [0x0x7ffb0f2226b1+33]
+
+2025-09-17 17:06:40,704 - INFO - 已点击查询按钮
+2025-09-17 17:07:01,201 - WARNING - 等待数据表格超时: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61c78fc95+79861]
+	GetHandleVerifier [0x0x7ff61c78fcf0+79952]
+	(No symbol) [0x0x7ff61c50cada]
+	(No symbol) [0x0x7ff61c564457]
+	(No symbol) [0x0x7ff61c56471c]
+	(No symbol) [0x0x7ff61c5b8217]
+	(No symbol) [0x0x7ff61c58cb1f]
+	(No symbol) [0x0x7ff61c5b4f8b]
+	(No symbol) [0x0x7ff61c58c8b3]
+	(No symbol) [0x0x7ff61c555272]
+	(No symbol) [0x0x7ff61c556043]
+	GetHandleVerifier [0x0x7ff61ca4b9cd+2946349]
+	GetHandleVerifier [0x0x7ff61ca45c4a+2922410]
+	GetHandleVerifier [0x0x7ff61ca659d7+3052855]
+	GetHandleVerifier [0x0x7ff61c7aaa7e+189918]
+	GetHandleVerifier [0x0x7ff61c7b2a1f+222591]
+	GetHandleVerifier [0x0x7ff61c798ab4+116244]
+	GetHandleVerifier [0x0x7ff61c798c69+116681]
+	GetHandleVerifier [0x0x7ff61c77f048+11176]
+	BaseThreadInitThunk [0x0x7ffb0f0e7344+20]
+	RtlUserThreadStart [0x0x7ffb0f2226b1+33]
+
+2025-09-17 17:07:01,231 - ERROR - 未能获取到有效数据
+2025-09-17 17:07:03,763 - INFO - 爬虫已关闭
+2025-09-17 17:08:11,921 - INFO - WebDriver初始化成功
+2025-09-17 17:08:20,131 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-17 17:08:37,105 - WARNING - 设置日期失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61c78fc95+79861]
+	GetHandleVerifier [0x0x7ff61c78fcf0+79952]
+	(No symbol) [0x0x7ff61c50cada]
+	(No symbol) [0x0x7ff61c564457]
+	(No symbol) [0x0x7ff61c56471c]
+	(No symbol) [0x0x7ff61c5b8217]
+	(No symbol) [0x0x7ff61c58cb1f]
+	(No symbol) [0x0x7ff61c5b4f8b]
+	(No symbol) [0x0x7ff61c58c8b3]
+	(No symbol) [0x0x7ff61c555272]
+	(No symbol) [0x0x7ff61c556043]
+	GetHandleVerifier [0x0x7ff61ca4b9cd+2946349]
+	GetHandleVerifier [0x0x7ff61ca45c4a+2922410]
+	GetHandleVerifier [0x0x7ff61ca659d7+3052855]
+	GetHandleVerifier [0x0x7ff61c7aaa7e+189918]
+	GetHandleVerifier [0x0x7ff61c7b2a1f+222591]
+	GetHandleVerifier [0x0x7ff61c798ab4+116244]
+	GetHandleVerifier [0x0x7ff61c798c69+116681]
+	GetHandleVerifier [0x0x7ff61c77f048+11176]
+	BaseThreadInitThunk [0x0x7ffb0f0e7344+20]
+	RtlUserThreadStart [0x0x7ffb0f2226b1+33]
+
+2025-09-17 17:08:37,191 - INFO - 已点击查询按钮
+2025-09-17 17:08:50,473 - INFO - 数据表格已加载，使用选择器: //table
+2025-09-17 17:08:50,494 - INFO - 找到 4 个表格，使用选择器: //table
+2025-09-17 17:08:50,504 - INFO - 解析表格 0，类型: volume_ranking
+2025-09-17 17:08:50,516 - INFO - 表格 0 共有 23 行
+2025-09-17 17:08:51,164 - INFO - 解析表格 volume_ranking: 21 条记录
+2025-09-17 17:08:51,180 - INFO - 解析表格 1，类型: buy_position_ranking
+2025-09-17 17:08:51,194 - INFO - 表格 1 共有 23 行
+2025-09-17 17:08:51,801 - INFO - 解析表格 buy_position_ranking: 21 条记录
+2025-09-17 17:08:51,817 - INFO - 解析表格 2，类型: sell_position_ranking
+2025-09-17 17:08:51,832 - INFO - 表格 2 共有 23 行
+2025-09-17 17:08:52,441 - INFO - 解析表格 sell_position_ranking: 21 条记录
+2025-09-17 17:08:52,457 - INFO - 总共解析到 63 条记录
+2025-09-17 17:08:52,457 - INFO - 成功获取数据: IF, 日期: 2025-09-12
+2025-09-17 17:08:52,480 - INFO - 数据已保存到CSV文件: cffex_data_20250917_170852.csv
+2025-09-17 17:08:55,089 - INFO - 爬虫已关闭
+2025-09-17 17:17:20,440 - INFO - WebDriver初始化成功
+2025-09-17 17:17:20,441 - INFO - 开始批量爬取数据: IF, 日期范围: 2025-09-08 到 2025-09-12
+2025-09-17 17:17:20,441 - INFO - 正在爬取日期: 2025-09-08
+2025-09-17 17:17:20,441 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-17 17:17:37,265 - WARNING - 设置日期失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61c78fc95+79861]
+	GetHandleVerifier [0x0x7ff61c78fcf0+79952]
+	(No symbol) [0x0x7ff61c50cada]
+	(No symbol) [0x0x7ff61c564457]
+	(No symbol) [0x0x7ff61c56471c]
+	(No symbol) [0x0x7ff61c5b8217]
+	(No symbol) [0x0x7ff61c58cb1f]
+	(No symbol) [0x0x7ff61c5b4f8b]
+	(No symbol) [0x0x7ff61c58c8b3]
+	(No symbol) [0x0x7ff61c555272]
+	(No symbol) [0x0x7ff61c556043]
+	GetHandleVerifier [0x0x7ff61ca4b9cd+2946349]
+	GetHandleVerifier [0x0x7ff61ca45c4a+2922410]
+	GetHandleVerifier [0x0x7ff61ca659d7+3052855]
+	GetHandleVerifier [0x0x7ff61c7aaa7e+189918]
+	GetHandleVerifier [0x0x7ff61c7b2a1f+222591]
+	GetHandleVerifier [0x0x7ff61c798ab4+116244]
+	GetHandleVerifier [0x0x7ff61c798c69+116681]
+	GetHandleVerifier [0x0x7ff61c77f048+11176]
+	BaseThreadInitThunk [0x0x7ffb0f0e7344+20]
+	RtlUserThreadStart [0x0x7ffb0f2226b1+33]
+
+2025-09-17 17:17:37,334 - INFO - 已点击查询按钮
+2025-09-17 17:17:50,495 - INFO - 数据表格已加载，使用选择器: //table
+2025-09-17 17:17:50,516 - INFO - 找到 4 个表格，使用选择器: //table
+2025-09-17 17:17:50,525 - INFO - 解析表格 0，类型: volume_ranking
+2025-09-17 17:17:50,536 - INFO - 表格 0 共有 23 行
+2025-09-17 17:17:51,159 - INFO - 解析表格 volume_ranking: 21 条记录
+2025-09-17 17:17:51,159 - INFO - 解析表格 1，类型: buy_position_ranking
+2025-09-17 17:17:51,179 - INFO - 表格 1 共有 23 行
+2025-09-17 17:17:51,789 - INFO - 解析表格 buy_position_ranking: 21 条记录
+2025-09-17 17:17:51,805 - INFO - 解析表格 2，类型: sell_position_ranking
+2025-09-17 17:17:51,819 - INFO - 表格 2 共有 23 行
+2025-09-17 17:17:52,404 - INFO - 解析表格 sell_position_ranking: 21 条记录
+2025-09-17 17:17:52,421 - INFO - 总共解析到 63 条记录
+2025-09-17 17:17:52,421 - INFO - 成功获取数据: IF, 日期: 2025-09-08
+2025-09-17 17:17:52,421 - INFO - 成功获取 2025-09-08 的数据
+2025-09-17 17:17:54,427 - INFO - 正在爬取日期: 2025-09-09
+2025-09-17 17:17:54,427 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-17 17:18:07,773 - WARNING - 设置日期失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61c78fc95+79861]
+	GetHandleVerifier [0x0x7ff61c78fcf0+79952]
+	(No symbol) [0x0x7ff61c50cada]
+	(No symbol) [0x0x7ff61c564457]
+	(No symbol) [0x0x7ff61c56471c]
+	(No symbol) [0x0x7ff61c5b8217]
+	(No symbol) [0x0x7ff61c58cb1f]
+	(No symbol) [0x0x7ff61c5b4f8b]
+	(No symbol) [0x0x7ff61c58c8b3]
+	(No symbol) [0x0x7ff61c555272]
+	(No symbol) [0x0x7ff61c556043]
+	GetHandleVerifier [0x0x7ff61ca4b9cd+2946349]
+	GetHandleVerifier [0x0x7ff61ca45c4a+2922410]
+	GetHandleVerifier [0x0x7ff61ca659d7+3052855]
+	GetHandleVerifier [0x0x7ff61c7aaa7e+189918]
+	GetHandleVerifier [0x0x7ff61c7b2a1f+222591]
+	GetHandleVerifier [0x0x7ff61c798ab4+116244]
+	GetHandleVerifier [0x0x7ff61c798c69+116681]
+	GetHandleVerifier [0x0x7ff61c77f048+11176]
+	BaseThreadInitThunk [0x0x7ffb0f0e7344+20]
+	RtlUserThreadStart [0x0x7ffb0f2226b1+33]
+
+2025-09-17 17:18:07,824 - INFO - 已点击查询按钮
+2025-09-17 17:18:20,935 - INFO - 数据表格已加载，使用选择器: //table
+2025-09-17 17:18:20,948 - INFO - 找到 4 个表格，使用选择器: //table
+2025-09-17 17:18:20,954 - INFO - 解析表格 0，类型: volume_ranking
+2025-09-17 17:18:20,962 - INFO - 表格 0 共有 23 行
+2025-09-17 17:18:21,553 - INFO - 解析表格 volume_ranking: 21 条记录
+2025-09-17 17:18:21,553 - INFO - 解析表格 1，类型: buy_position_ranking
+2025-09-17 17:18:21,571 - INFO - 表格 1 共有 23 行
+2025-09-17 17:18:22,160 - INFO - 解析表格 buy_position_ranking: 21 条记录
+2025-09-17 17:18:22,176 - INFO - 解析表格 2，类型: sell_position_ranking
+2025-09-17 17:18:22,182 - INFO - 表格 2 共有 23 行
+2025-09-17 17:18:22,772 - INFO - 解析表格 sell_position_ranking: 21 条记录
+2025-09-17 17:18:22,776 - INFO - 总共解析到 63 条记录
+2025-09-17 17:18:22,776 - INFO - 成功获取数据: IF, 日期: 2025-09-09
+2025-09-17 17:18:22,776 - INFO - 成功获取 2025-09-09 的数据
+2025-09-17 17:18:24,779 - INFO - 正在爬取日期: 2025-09-10
+2025-09-17 17:18:24,779 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-17 17:18:38,102 - WARNING - 设置日期失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61c78fc95+79861]
+	GetHandleVerifier [0x0x7ff61c78fcf0+79952]
+	(No symbol) [0x0x7ff61c50cada]
+	(No symbol) [0x0x7ff61c564457]
+	(No symbol) [0x0x7ff61c56471c]
+	(No symbol) [0x0x7ff61c5b8217]
+	(No symbol) [0x0x7ff61c58cb1f]
+	(No symbol) [0x0x7ff61c5b4f8b]
+	(No symbol) [0x0x7ff61c58c8b3]
+	(No symbol) [0x0x7ff61c555272]
+	(No symbol) [0x0x7ff61c556043]
+	GetHandleVerifier [0x0x7ff61ca4b9cd+2946349]
+	GetHandleVerifier [0x0x7ff61ca45c4a+2922410]
+	GetHandleVerifier [0x0x7ff61ca659d7+3052855]
+	GetHandleVerifier [0x0x7ff61c7aaa7e+189918]
+	GetHandleVerifier [0x0x7ff61c7b2a1f+222591]
+	GetHandleVerifier [0x0x7ff61c798ab4+116244]
+	GetHandleVerifier [0x0x7ff61c798c69+116681]
+	GetHandleVerifier [0x0x7ff61c77f048+11176]
+	BaseThreadInitThunk [0x0x7ffb0f0e7344+20]
+	RtlUserThreadStart [0x0x7ffb0f2226b1+33]
+
+2025-09-17 17:18:38,155 - INFO - 已点击查询按钮
+2025-09-17 17:18:51,260 - INFO - 数据表格已加载，使用选择器: //table
+2025-09-17 17:18:51,275 - INFO - 找到 4 个表格，使用选择器: //table
+2025-09-17 17:18:51,293 - INFO - 解析表格 0，类型: volume_ranking
+2025-09-17 17:18:51,301 - INFO - 表格 0 共有 23 行
+2025-09-17 17:18:51,884 - INFO - 解析表格 volume_ranking: 21 条记录
+2025-09-17 17:18:51,900 - INFO - 解析表格 1，类型: buy_position_ranking
+2025-09-17 17:18:51,909 - INFO - 表格 1 共有 23 行
+2025-09-17 17:18:52,498 - INFO - 解析表格 buy_position_ranking: 21 条记录
+2025-09-17 17:18:52,498 - INFO - 解析表格 2，类型: sell_position_ranking
+2025-09-17 17:18:52,520 - INFO - 表格 2 共有 23 行
+2025-09-17 17:18:53,096 - INFO - 解析表格 sell_position_ranking: 21 条记录
+2025-09-17 17:18:53,112 - INFO - 总共解析到 63 条记录
+2025-09-17 17:18:53,112 - INFO - 成功获取数据: IF, 日期: 2025-09-10
+2025-09-17 17:18:53,112 - INFO - 成功获取 2025-09-10 的数据
+2025-09-17 17:18:55,116 - INFO - 正在爬取日期: 2025-09-11
+2025-09-17 17:18:55,116 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-17 17:19:08,501 - WARNING - 设置日期失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61c78fc95+79861]
+	GetHandleVerifier [0x0x7ff61c78fcf0+79952]
+	(No symbol) [0x0x7ff61c50cada]
+	(No symbol) [0x0x7ff61c564457]
+	(No symbol) [0x0x7ff61c56471c]
+	(No symbol) [0x0x7ff61c5b8217]
+	(No symbol) [0x0x7ff61c58cb1f]
+	(No symbol) [0x0x7ff61c5b4f8b]
+	(No symbol) [0x0x7ff61c58c8b3]
+	(No symbol) [0x0x7ff61c555272]
+	(No symbol) [0x0x7ff61c556043]
+	GetHandleVerifier [0x0x7ff61ca4b9cd+2946349]
+	GetHandleVerifier [0x0x7ff61ca45c4a+2922410]
+	GetHandleVerifier [0x0x7ff61ca659d7+3052855]
+	GetHandleVerifier [0x0x7ff61c7aaa7e+189918]
+	GetHandleVerifier [0x0x7ff61c7b2a1f+222591]
+	GetHandleVerifier [0x0x7ff61c798ab4+116244]
+	GetHandleVerifier [0x0x7ff61c798c69+116681]
+	GetHandleVerifier [0x0x7ff61c77f048+11176]
+	BaseThreadInitThunk [0x0x7ffb0f0e7344+20]
+	RtlUserThreadStart [0x0x7ffb0f2226b1+33]
+
+2025-09-17 17:19:08,550 - INFO - 已点击查询按钮
+2025-09-17 17:19:21,634 - INFO - 数据表格已加载，使用选择器: //table
+2025-09-17 17:19:21,650 - INFO - 找到 4 个表格，使用选择器: //table
+2025-09-17 17:19:21,667 - INFO - 解析表格 0，类型: volume_ranking
+2025-09-17 17:19:21,674 - INFO - 表格 0 共有 23 行
+2025-09-17 17:19:22,285 - INFO - 解析表格 volume_ranking: 21 条记录
+2025-09-17 17:19:22,301 - INFO - 解析表格 1，类型: buy_position_ranking
+2025-09-17 17:19:22,313 - INFO - 表格 1 共有 23 行
+2025-09-17 17:19:22,914 - INFO - 解析表格 buy_position_ranking: 21 条记录
+2025-09-17 17:19:22,932 - INFO - 解析表格 2，类型: sell_position_ranking
+2025-09-17 17:19:22,936 - INFO - 表格 2 共有 23 行
+2025-09-17 17:19:23,559 - INFO - 解析表格 sell_position_ranking: 21 条记录
+2025-09-17 17:19:23,559 - INFO - 总共解析到 63 条记录
+2025-09-17 17:19:23,559 - INFO - 成功获取数据: IF, 日期: 2025-09-11
+2025-09-17 17:19:23,559 - INFO - 成功获取 2025-09-11 的数据
+2025-09-17 17:19:25,568 - INFO - 正在爬取日期: 2025-09-12
+2025-09-17 17:19:25,568 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-17 17:19:38,906 - WARNING - 设置日期失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61c78fc95+79861]
+	GetHandleVerifier [0x0x7ff61c78fcf0+79952]
+	(No symbol) [0x0x7ff61c50cada]
+	(No symbol) [0x0x7ff61c564457]
+	(No symbol) [0x0x7ff61c56471c]
+	(No symbol) [0x0x7ff61c5b8217]
+	(No symbol) [0x0x7ff61c58cb1f]
+	(No symbol) [0x0x7ff61c5b4f8b]
+	(No symbol) [0x0x7ff61c58c8b3]
+	(No symbol) [0x0x7ff61c555272]
+	(No symbol) [0x0x7ff61c556043]
+	GetHandleVerifier [0x0x7ff61ca4b9cd+2946349]
+	GetHandleVerifier [0x0x7ff61ca45c4a+2922410]
+	GetHandleVerifier [0x0x7ff61ca659d7+3052855]
+	GetHandleVerifier [0x0x7ff61c7aaa7e+189918]
+	GetHandleVerifier [0x0x7ff61c7b2a1f+222591]
+	GetHandleVerifier [0x0x7ff61c798ab4+116244]
+	GetHandleVerifier [0x0x7ff61c798c69+116681]
+	GetHandleVerifier [0x0x7ff61c77f048+11176]
+	BaseThreadInitThunk [0x0x7ffb0f0e7344+20]
+	RtlUserThreadStart [0x0x7ffb0f2226b1+33]
+
+2025-09-17 17:19:38,957 - INFO - 已点击查询按钮
+2025-09-17 17:19:52,109 - INFO - 数据表格已加载，使用选择器: //table
+2025-09-17 17:19:52,125 - INFO - 找到 4 个表格，使用选择器: //table
+2025-09-17 17:19:52,142 - INFO - 解析表格 0，类型: volume_ranking
+2025-09-17 17:19:52,150 - INFO - 表格 0 共有 23 行
+2025-09-17 17:19:52,776 - INFO - 解析表格 volume_ranking: 21 条记录
+2025-09-17 17:19:52,776 - INFO - 解析表格 1，类型: buy_position_ranking
+2025-09-17 17:19:52,793 - INFO - 表格 1 共有 23 行
+2025-09-17 17:19:53,396 - INFO - 解析表格 buy_position_ranking: 21 条记录
+2025-09-17 17:19:53,396 - INFO - 解析表格 2，类型: sell_position_ranking
+2025-09-17 17:19:53,410 - INFO - 表格 2 共有 23 行
+2025-09-17 17:19:53,996 - INFO - 解析表格 sell_position_ranking: 21 条记录
+2025-09-17 17:19:53,996 - INFO - 总共解析到 63 条记录
+2025-09-17 17:19:53,996 - INFO - 成功获取数据: IF, 日期: 2025-09-12
+2025-09-17 17:19:53,996 - INFO - 成功获取 2025-09-12 的数据
+2025-09-17 17:19:56,006 - INFO - 批量爬取完成，共获取 5 个交易日的数据
+2025-09-17 17:19:56,006 - INFO - 数据已保存到CSV文件: IF_range_2025-09-08_to_2025-09-12.csv
+2025-09-17 17:19:56,006 - INFO - 总共保存了 315 条记录
+2025-09-17 17:19:58,539 - INFO - 爬虫已关闭
+2025-09-20 20:47:20,254 - INFO - WebDriver初始化成功
+2025-09-20 20:47:20,285 - INFO - 开始批量爬取数据: IF, 日期范围: 2025-09-15 到 2025-09-19
+2025-09-20 20:47:20,285 - INFO - 正在爬取日期: 2025-09-15
+2025-09-20 20:47:20,286 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-20 20:47:37,142 - WARNING - 设置日期失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b02030f5+79493]
+	GetHandleVerifier [0x0x7ff7b0203150+79584]
+	(No symbol) [0x0x7ff7aff801ba]
+	(No symbol) [0x0x7ff7affd8067]
+	(No symbol) [0x0x7ff7affd832c]
+	(No symbol) [0x0x7ff7b002be27]
+	(No symbol) [0x0x7ff7b000074f]
+	(No symbol) [0x0x7ff7b0028b8b]
+	(No symbol) [0x0x7ff7b00004e3]
+	(No symbol) [0x0x7ff7affc8e92]
+	(No symbol) [0x0x7ff7affc9c63]
+	GetHandleVerifier [0x0x7ff7b04c0dbd+2954061]
+	GetHandleVerifier [0x0x7ff7b04bb02a+2930106]
+	GetHandleVerifier [0x0x7ff7b04db357+3061991]
+	GetHandleVerifier [0x0x7ff7b021d60e+187294]
+	GetHandleVerifier [0x0x7ff7b022557f+219919]
+	GetHandleVerifier [0x0x7ff7b020c294+116772]
+	GetHandleVerifier [0x0x7ff7b020c449+117209]
+	GetHandleVerifier [0x0x7ff7b01f2618+11176]
+	BaseThreadInitThunk [0x0x7ff8ef857344+20]
+	RtlUserThreadStart [0x0x7ff8effa26b1+33]
+
+2025-09-20 20:47:37,210 - INFO - 已点击查询按钮
+2025-09-20 20:47:42,242 - INFO - 页面显示无数据
+2025-09-20 20:47:42,242 - WARNING - 获取 2025-09-15 的数据失败: 该日期(2025-09-15)无数据
+2025-09-20 20:47:44,258 - INFO - 正在爬取日期: 2025-09-16
+2025-09-20 20:47:44,258 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-20 20:47:57,688 - WARNING - 设置日期失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b02030f5+79493]
+	GetHandleVerifier [0x0x7ff7b0203150+79584]
+	(No symbol) [0x0x7ff7aff801ba]
+	(No symbol) [0x0x7ff7affd8067]
+	(No symbol) [0x0x7ff7affd832c]
+	(No symbol) [0x0x7ff7b002be27]
+	(No symbol) [0x0x7ff7b000074f]
+	(No symbol) [0x0x7ff7b0028b8b]
+	(No symbol) [0x0x7ff7b00004e3]
+	(No symbol) [0x0x7ff7affc8e92]
+	(No symbol) [0x0x7ff7affc9c63]
+	GetHandleVerifier [0x0x7ff7b04c0dbd+2954061]
+	GetHandleVerifier [0x0x7ff7b04bb02a+2930106]
+	GetHandleVerifier [0x0x7ff7b04db357+3061991]
+	GetHandleVerifier [0x0x7ff7b021d60e+187294]
+	GetHandleVerifier [0x0x7ff7b022557f+219919]
+	GetHandleVerifier [0x0x7ff7b020c294+116772]
+	GetHandleVerifier [0x0x7ff7b020c449+117209]
+	GetHandleVerifier [0x0x7ff7b01f2618+11176]
+	BaseThreadInitThunk [0x0x7ff8ef857344+20]
+	RtlUserThreadStart [0x0x7ff8effa26b1+33]
+
+2025-09-20 20:47:57,736 - INFO - 已点击查询按钮
+2025-09-20 20:48:02,753 - INFO - 页面显示无数据
+2025-09-20 20:48:02,753 - WARNING - 获取 2025-09-16 的数据失败: 该日期(2025-09-16)无数据
+2025-09-20 20:48:04,759 - INFO - 正在爬取日期: 2025-09-17
+2025-09-20 20:48:04,759 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-20 20:48:18,305 - WARNING - 设置日期失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b02030f5+79493]
+	GetHandleVerifier [0x0x7ff7b0203150+79584]
+	(No symbol) [0x0x7ff7aff801ba]
+	(No symbol) [0x0x7ff7affd8067]
+	(No symbol) [0x0x7ff7affd832c]
+	(No symbol) [0x0x7ff7b002be27]
+	(No symbol) [0x0x7ff7b000074f]
+	(No symbol) [0x0x7ff7b0028b8b]
+	(No symbol) [0x0x7ff7b00004e3]
+	(No symbol) [0x0x7ff7affc8e92]
+	(No symbol) [0x0x7ff7affc9c63]
+	GetHandleVerifier [0x0x7ff7b04c0dbd+2954061]
+	GetHandleVerifier [0x0x7ff7b04bb02a+2930106]
+	GetHandleVerifier [0x0x7ff7b04db357+3061991]
+	GetHandleVerifier [0x0x7ff7b021d60e+187294]
+	GetHandleVerifier [0x0x7ff7b022557f+219919]
+	GetHandleVerifier [0x0x7ff7b020c294+116772]
+	GetHandleVerifier [0x0x7ff7b020c449+117209]
+	GetHandleVerifier [0x0x7ff7b01f2618+11176]
+	BaseThreadInitThunk [0x0x7ff8ef857344+20]
+	RtlUserThreadStart [0x0x7ff8effa26b1+33]
+
+2025-09-20 20:48:18,356 - INFO - 已点击查询按钮
+2025-09-20 20:48:23,362 - INFO - 页面显示无数据
+2025-09-20 20:48:23,362 - WARNING - 获取 2025-09-17 的数据失败: 该日期(2025-09-17)无数据
+2025-09-20 20:48:25,377 - INFO - 正在爬取日期: 2025-09-18
+2025-09-20 20:48:25,377 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-20 20:48:38,789 - WARNING - 设置日期失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b02030f5+79493]
+	GetHandleVerifier [0x0x7ff7b0203150+79584]
+	(No symbol) [0x0x7ff7aff801ba]
+	(No symbol) [0x0x7ff7affd8067]
+	(No symbol) [0x0x7ff7affd832c]
+	(No symbol) [0x0x7ff7b002be27]
+	(No symbol) [0x0x7ff7b000074f]
+	(No symbol) [0x0x7ff7b0028b8b]
+	(No symbol) [0x0x7ff7b00004e3]
+	(No symbol) [0x0x7ff7affc8e92]
+	(No symbol) [0x0x7ff7affc9c63]
+	GetHandleVerifier [0x0x7ff7b04c0dbd+2954061]
+	GetHandleVerifier [0x0x7ff7b04bb02a+2930106]
+	GetHandleVerifier [0x0x7ff7b04db357+3061991]
+	GetHandleVerifier [0x0x7ff7b021d60e+187294]
+	GetHandleVerifier [0x0x7ff7b022557f+219919]
+	GetHandleVerifier [0x0x7ff7b020c294+116772]
+	GetHandleVerifier [0x0x7ff7b020c449+117209]
+	GetHandleVerifier [0x0x7ff7b01f2618+11176]
+	BaseThreadInitThunk [0x0x7ff8ef857344+20]
+	RtlUserThreadStart [0x0x7ff8effa26b1+33]
+
+2025-09-20 20:48:38,842 - INFO - 已点击查询按钮
+2025-09-20 20:48:43,891 - INFO - 页面显示无数据
+2025-09-20 20:48:43,891 - WARNING - 获取 2025-09-18 的数据失败: 该日期(2025-09-18)无数据
+2025-09-20 20:48:45,894 - INFO - 正在爬取日期: 2025-09-19
+2025-09-20 20:48:45,894 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-20 20:48:59,359 - WARNING - 设置日期失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b02030f5+79493]
+	GetHandleVerifier [0x0x7ff7b0203150+79584]
+	(No symbol) [0x0x7ff7aff801ba]
+	(No symbol) [0x0x7ff7affd8067]
+	(No symbol) [0x0x7ff7affd832c]
+	(No symbol) [0x0x7ff7b002be27]
+	(No symbol) [0x0x7ff7b000074f]
+	(No symbol) [0x0x7ff7b0028b8b]
+	(No symbol) [0x0x7ff7b00004e3]
+	(No symbol) [0x0x7ff7affc8e92]
+	(No symbol) [0x0x7ff7affc9c63]
+	GetHandleVerifier [0x0x7ff7b04c0dbd+2954061]
+	GetHandleVerifier [0x0x7ff7b04bb02a+2930106]
+	GetHandleVerifier [0x0x7ff7b04db357+3061991]
+	GetHandleVerifier [0x0x7ff7b021d60e+187294]
+	GetHandleVerifier [0x0x7ff7b022557f+219919]
+	GetHandleVerifier [0x0x7ff7b020c294+116772]
+	GetHandleVerifier [0x0x7ff7b020c449+117209]
+	GetHandleVerifier [0x0x7ff7b01f2618+11176]
+	BaseThreadInitThunk [0x0x7ff8ef857344+20]
+	RtlUserThreadStart [0x0x7ff8effa26b1+33]
+
+2025-09-20 20:48:59,416 - INFO - 已点击查询按钮
+2025-09-20 20:49:04,448 - INFO - 页面显示无数据
+2025-09-20 20:49:04,448 - WARNING - 获取 2025-09-19 的数据失败: 该日期(2025-09-19)无数据
+2025-09-20 20:49:06,453 - INFO - 批量爬取完成，共获取 0 个交易日的数据
+2025-09-20 20:49:09,001 - INFO - 爬虫已关闭
+2025-09-20 20:50:21,893 - INFO - WebDriver初始化成功
+2025-09-20 20:50:21,894 - INFO - 开始批量爬取数据: IF, 日期范围: 2025-09-08 到 2025-09-12
+2025-09-20 20:50:21,894 - INFO - 正在爬取日期: 2025-09-08
+2025-09-20 20:50:21,894 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-20 20:50:38,899 - WARNING - 设置日期失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b02030f5+79493]
+	GetHandleVerifier [0x0x7ff7b0203150+79584]
+	(No symbol) [0x0x7ff7aff801ba]
+	(No symbol) [0x0x7ff7affd8067]
+	(No symbol) [0x0x7ff7affd832c]
+	(No symbol) [0x0x7ff7b002be27]
+	(No symbol) [0x0x7ff7b000074f]
+	(No symbol) [0x0x7ff7b0028b8b]
+	(No symbol) [0x0x7ff7b00004e3]
+	(No symbol) [0x0x7ff7affc8e92]
+	(No symbol) [0x0x7ff7affc9c63]
+	GetHandleVerifier [0x0x7ff7b04c0dbd+2954061]
+	GetHandleVerifier [0x0x7ff7b04bb02a+2930106]
+	GetHandleVerifier [0x0x7ff7b04db357+3061991]
+	GetHandleVerifier [0x0x7ff7b021d60e+187294]
+	GetHandleVerifier [0x0x7ff7b022557f+219919]
+	GetHandleVerifier [0x0x7ff7b020c294+116772]
+	GetHandleVerifier [0x0x7ff7b020c449+117209]
+	GetHandleVerifier [0x0x7ff7b01f2618+11176]
+	BaseThreadInitThunk [0x0x7ff8ef857344+20]
+	RtlUserThreadStart [0x0x7ff8effa26b1+33]
+
+2025-09-20 20:50:38,972 - INFO - 已点击查询按钮
+2025-09-20 20:50:43,998 - INFO - 页面显示无数据
+2025-09-20 20:50:43,998 - WARNING - 获取 2025-09-08 的数据失败: 该日期(2025-09-08)无数据
+2025-09-20 20:50:46,005 - INFO - 正在爬取日期: 2025-09-09
+2025-09-20 20:50:46,005 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-20 20:50:59,412 - WARNING - 设置日期失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b02030f5+79493]
+	GetHandleVerifier [0x0x7ff7b0203150+79584]
+	(No symbol) [0x0x7ff7aff801ba]
+	(No symbol) [0x0x7ff7affd8067]
+	(No symbol) [0x0x7ff7affd832c]
+	(No symbol) [0x0x7ff7b002be27]
+	(No symbol) [0x0x7ff7b000074f]
+	(No symbol) [0x0x7ff7b0028b8b]
+	(No symbol) [0x0x7ff7b00004e3]
+	(No symbol) [0x0x7ff7affc8e92]
+	(No symbol) [0x0x7ff7affc9c63]
+	GetHandleVerifier [0x0x7ff7b04c0dbd+2954061]
+	GetHandleVerifier [0x0x7ff7b04bb02a+2930106]
+	GetHandleVerifier [0x0x7ff7b04db357+3061991]
+	GetHandleVerifier [0x0x7ff7b021d60e+187294]
+	GetHandleVerifier [0x0x7ff7b022557f+219919]
+	GetHandleVerifier [0x0x7ff7b020c294+116772]
+	GetHandleVerifier [0x0x7ff7b020c449+117209]
+	GetHandleVerifier [0x0x7ff7b01f2618+11176]
+	BaseThreadInitThunk [0x0x7ff8ef857344+20]
+	RtlUserThreadStart [0x0x7ff8effa26b1+33]
+
+2025-09-20 20:50:59,473 - INFO - 已点击查询按钮
+2025-09-20 20:51:04,495 - INFO - 页面显示无数据
+2025-09-20 20:51:04,495 - WARNING - 获取 2025-09-09 的数据失败: 该日期(2025-09-09)无数据
+2025-09-20 20:51:06,496 - INFO - 正在爬取日期: 2025-09-10
+2025-09-20 20:51:06,496 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-20 20:51:20,021 - WARNING - 设置日期失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b02030f5+79493]
+	GetHandleVerifier [0x0x7ff7b0203150+79584]
+	(No symbol) [0x0x7ff7aff801ba]
+	(No symbol) [0x0x7ff7affd8067]
+	(No symbol) [0x0x7ff7affd832c]
+	(No symbol) [0x0x7ff7b002be27]
+	(No symbol) [0x0x7ff7b000074f]
+	(No symbol) [0x0x7ff7b0028b8b]
+	(No symbol) [0x0x7ff7b00004e3]
+	(No symbol) [0x0x7ff7affc8e92]
+	(No symbol) [0x0x7ff7affc9c63]
+	GetHandleVerifier [0x0x7ff7b04c0dbd+2954061]
+	GetHandleVerifier [0x0x7ff7b04bb02a+2930106]
+	GetHandleVerifier [0x0x7ff7b04db357+3061991]
+	GetHandleVerifier [0x0x7ff7b021d60e+187294]
+	GetHandleVerifier [0x0x7ff7b022557f+219919]
+	GetHandleVerifier [0x0x7ff7b020c294+116772]
+	GetHandleVerifier [0x0x7ff7b020c449+117209]
+	GetHandleVerifier [0x0x7ff7b01f2618+11176]
+	BaseThreadInitThunk [0x0x7ff8ef857344+20]
+	RtlUserThreadStart [0x0x7ff8effa26b1+33]
+
+2025-09-20 20:51:20,072 - INFO - 已点击查询按钮
+2025-09-20 20:51:25,088 - INFO - 页面显示无数据
+2025-09-20 20:51:25,088 - WARNING - 获取 2025-09-10 的数据失败: 该日期(2025-09-10)无数据
+2025-09-20 20:51:27,094 - INFO - 正在爬取日期: 2025-09-11
+2025-09-20 20:51:27,094 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-20 20:51:40,561 - WARNING - 设置日期失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b02030f5+79493]
+	GetHandleVerifier [0x0x7ff7b0203150+79584]
+	(No symbol) [0x0x7ff7aff801ba]
+	(No symbol) [0x0x7ff7affd8067]
+	(No symbol) [0x0x7ff7affd832c]
+	(No symbol) [0x0x7ff7b002be27]
+	(No symbol) [0x0x7ff7b000074f]
+	(No symbol) [0x0x7ff7b0028b8b]
+	(No symbol) [0x0x7ff7b00004e3]
+	(No symbol) [0x0x7ff7affc8e92]
+	(No symbol) [0x0x7ff7affc9c63]
+	GetHandleVerifier [0x0x7ff7b04c0dbd+2954061]
+	GetHandleVerifier [0x0x7ff7b04bb02a+2930106]
+	GetHandleVerifier [0x0x7ff7b04db357+3061991]
+	GetHandleVerifier [0x0x7ff7b021d60e+187294]
+	GetHandleVerifier [0x0x7ff7b022557f+219919]
+	GetHandleVerifier [0x0x7ff7b020c294+116772]
+	GetHandleVerifier [0x0x7ff7b020c449+117209]
+	GetHandleVerifier [0x0x7ff7b01f2618+11176]
+	BaseThreadInitThunk [0x0x7ff8ef857344+20]
+	RtlUserThreadStart [0x0x7ff8effa26b1+33]
+
+2025-09-20 20:51:40,620 - INFO - 已点击查询按钮
+2025-09-20 20:51:45,668 - INFO - 页面显示无数据
+2025-09-20 20:51:45,668 - WARNING - 获取 2025-09-11 的数据失败: 该日期(2025-09-11)无数据
+2025-09-20 20:51:47,681 - INFO - 正在爬取日期: 2025-09-12
+2025-09-20 20:51:47,681 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-20 20:52:01,166 - WARNING - 设置日期失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b02030f5+79493]
+	GetHandleVerifier [0x0x7ff7b0203150+79584]
+	(No symbol) [0x0x7ff7aff801ba]
+	(No symbol) [0x0x7ff7affd8067]
+	(No symbol) [0x0x7ff7affd832c]
+	(No symbol) [0x0x7ff7b002be27]
+	(No symbol) [0x0x7ff7b000074f]
+	(No symbol) [0x0x7ff7b0028b8b]
+	(No symbol) [0x0x7ff7b00004e3]
+	(No symbol) [0x0x7ff7affc8e92]
+	(No symbol) [0x0x7ff7affc9c63]
+	GetHandleVerifier [0x0x7ff7b04c0dbd+2954061]
+	GetHandleVerifier [0x0x7ff7b04bb02a+2930106]
+	GetHandleVerifier [0x0x7ff7b04db357+3061991]
+	GetHandleVerifier [0x0x7ff7b021d60e+187294]
+	GetHandleVerifier [0x0x7ff7b022557f+219919]
+	GetHandleVerifier [0x0x7ff7b020c294+116772]
+	GetHandleVerifier [0x0x7ff7b020c449+117209]
+	GetHandleVerifier [0x0x7ff7b01f2618+11176]
+	BaseThreadInitThunk [0x0x7ff8ef857344+20]
+	RtlUserThreadStart [0x0x7ff8effa26b1+33]
+
+2025-09-20 20:52:01,212 - INFO - 已点击查询按钮
+2025-09-20 20:52:06,259 - INFO - 页面显示无数据
+2025-09-20 20:52:06,259 - WARNING - 获取 2025-09-12 的数据失败: 该日期(2025-09-12)无数据
+2025-09-20 20:52:08,273 - INFO - 批量爬取完成，共获取 0 个交易日的数据
+2025-09-20 20:52:10,834 - INFO - 爬虫已关闭
+2025-09-20 20:55:12,692 - INFO - WebDriver初始化成功
+2025-09-20 20:55:12,693 - INFO - 开始批量爬取数据: IF, 日期范围: 2025-09-08 到 2025-09-12
+2025-09-20 20:55:12,696 - INFO - 正在爬取日期: 2025-09-08
+2025-09-20 20:55:12,697 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-20 20:55:20,885 - INFO - 成功设置日期为: 2025-09-08
+2025-09-20 20:55:20,885 - INFO - 成功选择日期: 2025-09-08
+2025-09-20 20:55:23,950 - INFO - 成功点击查询按钮
+2025-09-20 20:55:23,950 - INFO - 成功点击查询按钮
+2025-09-20 20:55:24,000 - INFO - 已点击查询按钮
+2025-09-20 20:55:37,243 - INFO - 数据表格已加载，使用选择器: //table
+2025-09-20 20:55:37,278 - INFO - 找到 4 个表格，使用选择器: //table
+2025-09-20 20:55:37,281 - INFO - 解析表格 0，类型: volume_ranking
+2025-09-20 20:55:37,301 - INFO - 表格 0 共有 23 行
+2025-09-20 20:55:37,949 - INFO - 解析表格 volume_ranking: 21 条记录
+2025-09-20 20:55:37,965 - INFO - 解析表格 1，类型: buy_position_ranking
+2025-09-20 20:55:37,965 - INFO - 表格 1 共有 23 行
+2025-09-20 20:55:38,646 - INFO - 解析表格 buy_position_ranking: 21 条记录
+2025-09-20 20:55:38,662 - INFO - 解析表格 2，类型: sell_position_ranking
+2025-09-20 20:55:38,668 - INFO - 表格 2 共有 23 行
+2025-09-20 20:55:39,329 - INFO - 解析表格 sell_position_ranking: 21 条记录
+2025-09-20 20:55:39,329 - INFO - 总共解析到 63 条记录
+2025-09-20 20:55:39,329 - INFO - 成功获取数据: IF, 日期: 2025-09-08
+2025-09-20 20:55:39,329 - INFO - 成功获取 2025-09-08 的数据
+2025-09-20 20:55:41,343 - INFO - 正在爬取日期: 2025-09-09
+2025-09-20 20:55:41,343 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-20 20:55:46,146 - INFO - 成功设置日期为: 2025-09-09
+2025-09-20 20:55:46,146 - INFO - 成功选择日期: 2025-09-09
+2025-09-20 20:55:49,208 - INFO - 成功点击查询按钮
+2025-09-20 20:55:49,208 - INFO - 成功点击查询按钮
+2025-09-20 20:55:49,279 - INFO - 已点击查询按钮
+2025-09-20 20:56:02,569 - INFO - 数据表格已加载，使用选择器: //table
+2025-09-20 20:56:02,579 - INFO - 找到 4 个表格，使用选择器: //table
+2025-09-20 20:56:02,600 - INFO - 解析表格 0，类型: volume_ranking
+2025-09-20 20:56:02,608 - INFO - 表格 0 共有 23 行
+2025-09-20 20:56:03,244 - INFO - 解析表格 volume_ranking: 21 条记录
+2025-09-20 20:56:03,244 - INFO - 解析表格 1，类型: buy_position_ranking
+2025-09-20 20:56:03,266 - INFO - 表格 1 共有 23 行
+2025-09-20 20:56:03,913 - INFO - 解析表格 buy_position_ranking: 21 条记录
+2025-09-20 20:56:03,929 - INFO - 解析表格 2，类型: sell_position_ranking
+2025-09-20 20:56:03,940 - INFO - 表格 2 共有 23 行
+2025-09-20 20:56:04,611 - INFO - 解析表格 sell_position_ranking: 21 条记录
+2025-09-20 20:56:04,611 - INFO - 总共解析到 63 条记录
+2025-09-20 20:56:04,611 - INFO - 成功获取数据: IF, 日期: 2025-09-09
+2025-09-20 20:56:04,611 - INFO - 成功获取 2025-09-09 的数据
+2025-09-20 20:56:06,625 - INFO - 正在爬取日期: 2025-09-10
+2025-09-20 20:56:06,625 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-20 20:56:11,382 - INFO - 成功设置日期为: 2025-09-10
+2025-09-20 20:56:11,382 - INFO - 成功选择日期: 2025-09-10
+2025-09-20 20:56:14,456 - INFO - 成功点击查询按钮
+2025-09-20 20:56:14,456 - INFO - 成功点击查询按钮
+2025-09-20 20:56:14,542 - INFO - 已点击查询按钮
+2025-09-20 20:56:27,716 - INFO - 数据表格已加载，使用选择器: //table
+2025-09-20 20:56:27,745 - INFO - 找到 4 个表格，使用选择器: //table
+2025-09-20 20:56:27,747 - INFO - 解析表格 0，类型: volume_ranking
+2025-09-20 20:56:27,760 - INFO - 表格 0 共有 23 行
+2025-09-20 20:56:28,430 - INFO - 解析表格 volume_ranking: 21 条记录
+2025-09-20 20:56:28,430 - INFO - 解析表格 1，类型: buy_position_ranking
+2025-09-20 20:56:28,452 - INFO - 表格 1 共有 23 行
+2025-09-20 20:56:29,078 - INFO - 解析表格 buy_position_ranking: 21 条记录
+2025-09-20 20:56:29,078 - INFO - 解析表格 2，类型: sell_position_ranking
+2025-09-20 20:56:29,091 - INFO - 表格 2 共有 23 行
+2025-09-20 20:56:29,782 - INFO - 解析表格 sell_position_ranking: 21 条记录
+2025-09-20 20:56:29,792 - INFO - 总共解析到 63 条记录
+2025-09-20 20:56:29,792 - INFO - 成功获取数据: IF, 日期: 2025-09-10
+2025-09-20 20:56:29,792 - INFO - 成功获取 2025-09-10 的数据
+2025-09-20 20:56:31,793 - INFO - 正在爬取日期: 2025-09-11
+2025-09-20 20:56:31,793 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-20 20:56:36,489 - INFO - 成功设置日期为: 2025-09-11
+2025-09-20 20:56:36,489 - INFO - 成功选择日期: 2025-09-11
+2025-09-20 20:56:39,571 - INFO - 成功点击查询按钮
+2025-09-20 20:56:39,571 - INFO - 成功点击查询按钮
+2025-09-20 20:56:39,640 - INFO - 已点击查询按钮
+2025-09-20 20:56:52,878 - INFO - 数据表格已加载，使用选择器: //table
+2025-09-20 20:56:52,898 - INFO - 找到 4 个表格，使用选择器: //table
+2025-09-20 20:56:52,907 - INFO - 解析表格 0，类型: volume_ranking
+2025-09-20 20:56:52,914 - INFO - 表格 0 共有 23 行
+2025-09-20 20:56:53,606 - INFO - 解析表格 volume_ranking: 21 条记录
+2025-09-20 20:56:53,606 - INFO - 解析表格 1，类型: buy_position_ranking
+2025-09-20 20:56:53,619 - INFO - 表格 1 共有 23 行
+2025-09-20 20:56:54,300 - INFO - 解析表格 buy_position_ranking: 21 条记录
+2025-09-20 20:56:54,310 - INFO - 解析表格 2，类型: sell_position_ranking
+2025-09-20 20:56:54,322 - INFO - 表格 2 共有 23 行
+2025-09-20 20:56:54,974 - INFO - 解析表格 sell_position_ranking: 21 条记录
+2025-09-20 20:56:54,974 - INFO - 总共解析到 63 条记录
+2025-09-20 20:56:54,974 - INFO - 成功获取数据: IF, 日期: 2025-09-11
+2025-09-20 20:56:54,974 - INFO - 成功获取 2025-09-11 的数据
+2025-09-20 20:56:56,984 - INFO - 正在爬取日期: 2025-09-12
+2025-09-20 20:56:56,984 - INFO - 正在访问页面: http://www.cffex.com.cn/ccpm/?productid=IF
+2025-09-20 20:57:01,746 - INFO - 成功设置日期为: 2025-09-12
+2025-09-20 20:57:01,747 - INFO - 成功选择日期: 2025-09-12
+2025-09-20 20:57:04,840 - INFO - 成功点击查询按钮
+2025-09-20 20:57:04,840 - INFO - 成功点击查询按钮
+2025-09-20 20:57:04,899 - INFO - 已点击查询按钮
+2025-09-20 20:57:18,071 - INFO - 数据表格已加载，使用选择器: //table
+2025-09-20 20:57:18,078 - INFO - 找到 4 个表格，使用选择器: //table
+2025-09-20 20:57:18,093 - INFO - 解析表格 0，类型: volume_ranking
+2025-09-20 20:57:18,101 - INFO - 表格 0 共有 23 行
+2025-09-20 20:57:18,779 - INFO - 解析表格 volume_ranking: 21 条记录
+2025-09-20 20:57:18,779 - INFO - 解析表格 1，类型: buy_position_ranking
+2025-09-20 20:57:18,793 - INFO - 表格 1 共有 23 行
+2025-09-20 20:57:19,446 - INFO - 解析表格 buy_position_ranking: 21 条记录
+2025-09-20 20:57:19,446 - INFO - 解析表格 2，类型: sell_position_ranking
+2025-09-20 20:57:19,459 - INFO - 表格 2 共有 23 行
+2025-09-20 20:57:20,157 - INFO - 解析表格 sell_position_ranking: 21 条记录
+2025-09-20 20:57:20,163 - INFO - 总共解析到 63 条记录
+2025-09-20 20:57:20,163 - INFO - 成功获取数据: IF, 日期: 2025-09-12
+2025-09-20 20:57:20,163 - INFO - 成功获取 2025-09-12 的数据
+2025-09-20 20:57:22,168 - INFO - 批量爬取完成，共获取 5 个交易日的数据
+2025-09-20 20:57:22,214 - INFO - 数据已保存到CSV文件: IF_range_2025-09-08_to_2025-09-12.csv
+2025-09-20 20:57:22,214 - INFO - 总共保存了 315 条记录
+2025-09-20 20:57:24,754 - INFO - 爬虫已关闭
