@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1A1A0012AA0000100000001 /* gTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A1A0002AA0000100000001 /* gTimerApp.swift */; };
+		E1A1A0032AA0000100000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A1A0022AA0000100000001 /* ContentView.swift */; };
+		E1A1A0072AA0000100000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A1A0062AA0000100000001 /* Assets.xcassets */; };
+		E1A1A0192AA0000100000001 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A1A01A2AA0000100000001 /* NotificationManager.swift */; };
+		E1B000012AB0000100000001 /* CountdownLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B0000A2AB0000100000001 /* CountdownLiveActivity.swift */; };
+		E1B0001A2AB0000100000001 /* gTimerWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E1B0000D2AB0000100000001 /* gTimerWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E1B000222AB0000100000001 /* CountdownActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B000212AB0000100000001 /* CountdownActivityAttributes.swift */; };
+		E1B000232AB0000100000001 /* CountdownActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B000212AB0000100000001 /* CountdownActivityAttributes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1A1A0002AA0000100000001 /* gTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gTimerApp.swift; sourceTree = "<group>"; };
+		E1A1A0022AA0000100000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1A1A0052AA0000100000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A1A0062AA0000100000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1A1A00A2AA0000100000001 /* gTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A1A01A2AA0000100000001 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		E1B000082AB0000100000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1B0000A2AB0000100000001 /* CountdownLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownLiveActivity.swift; sourceTree = "<group>"; };
+		E1B0000D2AB0000100000001 /* gTimerWidget.appex */ = {isa = PBXFileReference; explicitFileType = wrapper.app-extension; includeInIndex = 0; path = gTimerWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B000212AB0000100000001 /* CountdownActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownActivityAttributes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1A1A00B2AA0000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B0000F2AB0000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1A19FFB2AA0000100000001 = {
+			isa = PBXGroup;
+			children = (
+				E1A1A0042AA0000100000001 /* gTimer */,
+				E1B000062AB0000100000001 /* gTimerWidget */,
+				E1A1A0092AA0000100000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1A1A0042AA0000100000001 /* gTimer */ = {
+			isa = PBXGroup;
+			children = (
+				E1A1A0002AA0000100000001 /* gTimerApp.swift */,
+				E1A1A0022AA0000100000001 /* ContentView.swift */,
+				E1B000212AB0000100000001 /* CountdownActivityAttributes.swift */,
+				E1A1A01A2AA0000100000001 /* NotificationManager.swift */,
+				E1A1A0062AA0000100000001 /* Assets.xcassets */,
+				E1A1A0052AA0000100000001 /* Info.plist */,
+			);
+			path = gTimer;
+			sourceTree = "<group>";
+		};
+		E1B000062AB0000100000001 /* gTimerWidget */ = {
+			isa = PBXGroup;
+			children = (
+				E1B0000A2AB0000100000001 /* CountdownLiveActivity.swift */,
+				E1B000082AB0000100000001 /* Info.plist */,
+			);
+			path = gTimerWidget;
+			sourceTree = "<group>";
+		};
+		E1A1A0092AA0000100000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1A1A00A2AA0000100000001 /* gTimer.app */,
+				E1B0000D2AB0000100000001 /* gTimerWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1A1A00C2AA0000100000001 /* gTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A1A0162AA0000100000001 /* Build configuration list for PBXNativeTarget "gTimer" */;
+			buildPhases = (
+				E1A1A00F2AA0000100000001 /* Sources */,
+				E1A1A00B2AA0000100000001 /* Frameworks */,
+				E1A1A0102AA0000100000001 /* Resources */,
+				E1B0001B2AB0000100000001 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gTimer;
+			productName = gTimer;
+			productReference = E1A1A00A2AA0000100000001 /* gTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1B000102AB0000100000001 /* gTimerWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B000152AB0000100000001 /* Build configuration list for PBXNativeTarget "gTimerWidget" */;
+			buildPhases = (
+				E1B0000E2AB0000100000001 /* Sources */,
+				E1B0000F2AB0000100000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gTimerWidget;
+			productName = gTimerWidget;
+			productReference = E1B0000D2AB0000100000001 /* gTimerWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1A19FFC2AA0000100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = guoxh;
+			};
+			buildConfigurationList = E1A19FFD2AA0000100000001 /* Build configuration list for PBXProject "gTimer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1A19FFB2AA0000100000001;
+			productRefGroup = E1A1A0092AA0000100000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1A1A00C2AA0000100000001 /* gTimer */,
+				E1B000102AB0000100000001 /* gTimerWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1A1A0102AA0000100000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A1A0072AA0000100000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1A1A00F2AA0000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A1A0012AA0000100000001 /* gTimerApp.swift in Sources */,
+				E1A1A0032AA0000100000001 /* ContentView.swift in Sources */,
+				E1A1A0192AA0000100000001 /* NotificationManager.swift in Sources */,
+				E1B000222AB0000100000001 /* CountdownActivityAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B0000E2AB0000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B000012AB0000100000001 /* CountdownLiveActivity.swift in Sources */,
+				E1B000232AB0000100000001 /* CountdownActivityAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1B0001B2AB0000100000001 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E1B0001A2AB0000100000001 /* gTimerWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E1A19FFE2AA0000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guoxh.gTimer;
+				PRODUCT_NAME = gTimer;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E1A19FFF2AA0000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guoxh.gTimer;
+				PRODUCT_NAME = gTimer;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E1A1A0172AA0000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				INFOPLIST_FILE = gTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guoxh.gTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				SUPPORTS_MACCATALYST = NO;
+			};
+			name = Debug;
+		};
+		E1A1A0182AA0000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				INFOPLIST_FILE = gTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guoxh.gTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				SUPPORTS_MACCATALYST = NO;
+			};
+			name = Release;
+		};
+		E1B000162AB0000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSExtensionPointIdentifier = com.apple.widgetkit-extension;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guoxh.gTimer.gTimerWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = 1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1B000172AB0000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSExtensionPointIdentifier = com.apple.widgetkit-extension;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guoxh.gTimer.gTimerWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = 1;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1A19FFD2AA0000100000001 /* Build configuration list for PBXProject "gTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A19FFE2AA0000100000001 /* Debug */,
+				E1A19FFF2AA0000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A1A0162AA0000100000001 /* Build configuration list for PBXNativeTarget "gTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A1A0172AA0000100000001 /* Debug */,
+				E1A1A0182AA0000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1B000152AB0000100000001 /* Build configuration list for PBXNativeTarget "gTimerWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B000162AB0000100000001 /* Debug */,
+				E1B000172AB0000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = E1A19FFC2AA0000100000001 /* Project object */;
+}
